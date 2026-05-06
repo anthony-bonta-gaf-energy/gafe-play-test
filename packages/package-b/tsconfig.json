@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "../../.config/.tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@gafe/package-a": ["../package-a/src/index.mts"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.mts"],
+  "references": [
+    {
+      "path": "../package-a"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@gafe/package-c",
+  "version": "1.0.0",
+  "author": "GAF Energy",
+  "description": "Package C has no changes but is dependent on package A",
+  "type": "module",
+  "dependencies": {
+    "@gafe/package-a": "^1.0.0"
+  }
+}
