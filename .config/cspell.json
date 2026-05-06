@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
+  "language": "en",
+  "words": ["gafe"],
+  "dictionaries": [
+    "bash",
+    "companies",
+    "css",
+    "en_US",
+    "filetypes",
+    "fonts",
+    "html",
+    "lorem-ipsum",
+    "node",
+    "npm",
+    "misc",
+    "softwareTerms",
+    "typescript"
+  ]
+}
