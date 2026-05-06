@@ -1,4 +1,3 @@
 # Description
 
-Package B should depend on A but not contain any breaking changes.
-
+Package B should depend on Package A.
