@@ -1,7 +1,7 @@
 {
   "npmClient": "yarn",
   "stream": true,
-  "version": "5.0.10",
+  "version": "1.0.0",
   "nx": true,
   "command": {
     "publish": {

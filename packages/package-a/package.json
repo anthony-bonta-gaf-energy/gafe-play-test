@@ -1,6 +1,6 @@
 {
   "name": "package-a",
-  "version": "5.0.10",
+  "version": "1.0.0",
   "author": "GAF Energy",
   "description": "Package A has a breaking change",
   "type": "module"
