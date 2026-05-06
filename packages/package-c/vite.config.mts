@@ -1,5 +1,5 @@
 import { resolve } from "node:path";
-import dts from "unplugin-dts/vite";
+import dts from "vite-plugin-dts";
 import { defineConfig } from "vite";
 
 export default defineConfig({
