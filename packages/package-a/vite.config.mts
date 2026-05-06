@@ -1,10 +1,9 @@
 import { resolve } from "node:path";
 import dts from "unplugin-dts/vite";
-import { defineConfig, type Plugin } from "vite";
-import { externalizeDeps } from "vite-plugin-externalize-deps";
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [externalizeDeps(), dts()],
+  plugins: [dts()],
   build: {
     minify: false,
     sourcemap: true,
