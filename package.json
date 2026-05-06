@@ -1,26 +1,26 @@
 {
-  "name": "lerna-version-bug",
-  "description": "Demo of lerna versioning bug.",
+  "name": "gafe-play-test",
+  "description": "Demo of bugs in 3rd party packages.",
   "author": "Anthony Bonta",
   "license": "UNLICENSED",
   "type": "module",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/standardindustries/gafe-helix"
+    "url": "https://github.com/anthony-bonta-gaf-energy/gafe-play-test"
   },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "bump": "lerna version --conventional-commits",
+    "build": "lerna run build",
     "postinstall": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.4.1",
-    "@commitlint/config-conventional": "^20.4.1",
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
     "husky": "^9.1.7",
-    "lerna": "^9.0.4"
+    "lerna": "^9.0.7"
   },
   "packageManager": "yarn@4.14.1"
 }

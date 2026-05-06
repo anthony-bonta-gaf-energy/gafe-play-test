@@ -1,5 +1,5 @@
 {
-  "name": "package-a",
+  "name": "@gafe/package-a",
   "version": "1.0.0",
   "author": "GAF Energy",
   "description": "Package A has a breaking change",
